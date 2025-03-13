@@ -1,13 +1,10 @@
-import { Urbanist } from "next/font/google";
-import "./globals.css";
+import type { Metadata } from "next";
+import "./globals.css"; // Mantén la importación de tu archivo CSS global
 import { ThemeProvider } from "@/components/theme-providers";
 
-// Configuración de la fuente Urbanist
-export const urbanist = Urbanist({
-  subsets: ["latin"],
-});
+// Elimina la importación y el uso de `Urbanist` si ya no la necesitas
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Luciano Badenas",
   description: "Hola soy Luciano Badenas, Desarrollador Fullstack",
 };
@@ -19,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={urbanist.className}>
+      <body>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
