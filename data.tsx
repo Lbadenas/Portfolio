@@ -324,7 +324,7 @@ export const dataContact = [
   {
     id: 2,
     title: "Github",
-    subtitle: "github.com/Lbadenas",
+    subtitle: "https://github.com/Lbadenas",
     link: "https://github.com/Lbadenas",
     icon: <Code2 />,
   },
