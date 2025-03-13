@@ -91,45 +91,26 @@ export const dataSlider = [
 export const dataPortfolio = [
   {
     id: 1,
-    title: "Web Pro",
+    title: "Sistema de Gestión de Turnos",
     image: "/image-1.jpg",
-    urlGithub: "#!",
-    urlDemo: "#!",
+    urlGithub: "https://github.com/Lbadenas/M3-Turnos",
+    urlDemo: "https://m3-turnos.vercel.app",
   },
   {
     id: 2,
-    title: "Desarrollo Web Ágil",
+    title: "Gestión de Pagos y Facturación ",
     image: "/image-2.jpg",
-    urlGithub: "#!",
-    urlDemo: "#!",
+    urlGithub: "https://github.com/Lbadenas/Edufee",
+    urlDemo: "https://edufee.vercel.app",
   },
   {
     id: 3,
-    title: "Estrategias Web",
+    title: "Backend para Tienda Online",
     image: "/image-3.jpg",
-    urlGithub: "#!",
-    urlDemo: "#!",
-  },
-  {
-    id: 4,
-    title: "Navegando Ideas Creativas",
-    image: "/image-4.jpg",
-    urlGithub: "#!",
-    urlDemo: "#!",
-  },
-  {
-    id: 5,
-    title: "Sitios Web Impactantes",
-    image: "/image-5.jpg",
-    urlGithub: "#!",
-    urlDemo: "#!",
-  },
-  {
-    id: 6,
-    title: "Proyectos Web Dinámicos",
-    image: "/image-6.jpg",
-    urlGithub: "#!",
-    urlDemo: "#!",
+    urlGithub:
+      "https://github.com/pi-rym/PM4BE-Lbadenas/tree/main/back/ecommerce-lbadenas",
+    urlDemo:
+      "https://github.com/pi-rym/PM4BE-Lbadenas/tree/main/back/ecommerce-lbadenas",
   },
 ];
 
@@ -268,18 +249,14 @@ export const dataServices = [
       {
         name: "Diseño y desarrollo responsive",
       },
-      {
-        name: "Optimización SEO",
-      },
+
       {
         name: "Desarrollo de aplicaciones web",
       },
       {
         name: "Gestión de contenido",
       },
-      {
-        name: "Comercio electrónico",
-      },
+
       {
         name: "Mantenimiento y soporte continuo",
       },
@@ -296,23 +273,16 @@ export const dataServices = [
       {
         name: "Creación de vídeos atractivos y dinámicos",
       },
-      {
-        name: "Diseño gráfico para una imagen impactante",
-      },
+
       {
         name: "Edición profesional de textos y materiales visuales",
       },
-      {
-        name: "Estrategias de marketing de contenidos efectivas",
-      },
+
       {
         name: "Producción de podcasts informativos y entretenidos",
       },
       {
         name: "Generación de infografías claras y visualmente atractivas",
-      },
-      {
-        name: "Fotografía profesional para capturar momentos excepcionales",
       },
     ],
   },
@@ -347,22 +317,22 @@ export const dataContact = [
   {
     id: 1,
     title: "Teléfono",
-    subtitle: "+34 677 66 66 33",
+    subtitle: "+54 1144209187",
     link: "tel:+34677666633",
     icon: <Phone />,
   },
   {
     id: 2,
     title: "Github",
-    subtitle: "github.com/ratasi",
-    link: "github.com/ratasi",
+    subtitle: "github.com/Lbadenas",
+    link: "https://github.com/Lbadenas",
     icon: <Code2 />,
   },
   {
     id: 3,
     title: "Email",
-    subtitle: "email@email.com",
-    link: "mailto:test@test.com",
+    subtitle: "badenas101189@gmail.com",
+    link: "mailto:badenas101189@gmail.com",
     icon: <Inbox />,
   },
 ];
