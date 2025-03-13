@@ -20,19 +20,19 @@ export const dataAboutMe = [
     id: 1,
     name: "Experiencia",
     icon: <Briefcase />,
-    description: "+4 años de experiencia",
+    description: "1 año desarrollando aplicaciones",
   },
   {
     id: 2,
-    name: "Clientes",
+    name: "Colaboraciones",
     icon: <UsersRound />,
-    description: "+200 clientes satisfechos",
+    description: "Trabajo en equipo y proyectos académicos",
   },
   {
     id: 3,
     name: "Proyectos",
     icon: <Wrench />,
-    description: "+50 completados",
+    description: "Apps personales y prácticas",
   },
 ];
 
@@ -136,73 +136,121 @@ export const dataPortfolio = [
 export const dataExperience = [
   {
     id: 1,
-    title: "Frontend Development  💄",
+    title: "Desarrollo Frontend 💄",
     experience: [
       {
-        name: "HTML",
+        name: "JavaScript",
         subtitle: "Experimentado",
         value: 80,
       },
       {
-        name: "CSS",
+        name: "TypeScript",
         subtitle: "Intermedio",
-        value: 75,
-      },
-      {
-        name: "JavaScript",
-        subtitle: "Experimentado",
-        value: 60,
-      },
-      {
-        name: "Tailwind CSS",
-        subtitle: "Experimentado",
-        value: 30,
+        value: 70,
       },
       {
         name: "React",
-        subtitle: "Experimentado",
-        value: 60,
+        subtitle: "Intermedio",
+        value: 70,
+      },
+      {
+        name: "Next.js",
+        subtitle: "Intermedio",
+        value: 65,
+      },
+      {
+        name: "Tailwind CSS",
+        subtitle: "Intermedio",
+        value: 65,
       },
       {
         name: "Bootstrap",
-        subtitle: "Basic",
-        value: 50,
+        subtitle: "Básico",
+        value: 55,
       },
     ],
   },
   {
     id: 2,
-    title: "Backend Development  🥷",
+    title: "Desarrollo Backend 🥷",
     experience: [
       {
-        name: "Node JS",
+        name: "Node.js",
         subtitle: "Experimentado",
         value: 80,
       },
       {
-        name: "Mongo DB",
+        name: "NestJS",
+        subtitle: "Intermedio",
+        value: 70,
+      },
+      {
+        name: "Express",
+        subtitle: "Intermedio",
+        value: 70,
+      },
+      {
+        name: "PostgreSQL",
+        subtitle: "Intermedio",
+        value: 65,
+      },
+      {
+        name: "MongoDB",
+        subtitle: "Intermedio",
+        value: 60,
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "Herramientas y Metodología 🛠️",
+    experience: [
+      {
+        name: "Git",
+        subtitle: "Experimentado",
+        value: 80,
+      },
+      {
+        name: "Jira",
+        subtitle: "Intermedio",
+        value: 70,
+      },
+      {
+        name: "Slack",
+        subtitle: "Intermedio",
+        value: 65,
+      },
+      {
+        name: "Visual Studio Code",
+        subtitle: "Experimentado",
+        value: 80,
+      },
+      {
+        name: "Scrum",
+        subtitle: "Intermedio",
+        value: 70,
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: "Desarrollo Personal y Proyectos 💡",
+    experience: [
+      {
+        name: "Desarrollo de Aplicaciones Full Stack",
         subtitle: "Intermedio",
         value: 75,
       },
       {
-        name: "Python",
-        subtitle: "Basic",
-        value: 60,
+        name: "Proyectos Open Source",
+        subtitle: "Intermedio",
+        value: 65,
       },
+
       {
-        name: "MySQL",
-        subtitle: "Experimentado",
-        value: 60,
-      },
-      {
-        name: "PHP",
-        subtitle: "Experimentado",
-        value: 60,
-      },
-      {
-        name: "Django",
-        subtitle: "Basic",
-        value: 60,
+        name: "Pruebas Unitarias (Jest, Jasmine)",
+        subtitle: "Intermedio",
+        value: 65,
       },
     ],
   },

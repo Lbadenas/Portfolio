@@ -1,9 +1,17 @@
 import Navbar from "@/components/navbar";
+import Introduction from "@/components/introduction";
+import AboutMe from "@/components/about-me";
+import Experience from "@/components/experience";
+import Services from "@/components/service";
 
 export default function home() {
   return (
     <main className="pb-40">
       <Navbar />
+      <Introduction />
+      <AboutMe />
+      <Experience />
+      <Services />
     </main>
   );
 }
