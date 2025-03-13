@@ -1,13 +1,13 @@
-import type { Metadata } from "next";
 import { Urbanist } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-providers";
 
+// Configuración de la fuente Urbanist
 export const urbanist = Urbanist({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "Luciano Badenas",
   description: "Hola soy Luciano Badenas, Desarrollador Fullstack",
 };
